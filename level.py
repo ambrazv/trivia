@@ -1,5 +1,5 @@
 def choose_level(n_pregunta, p_level):
-    """Permite escoger el nivle de dificultad de la pregunta a relaizar.
+    """Permite escoger el nivel de dificultad de la pregunta a realizar.
     Parámetros
     ----------
     n_pregunta: int
