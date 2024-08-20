@@ -3,7 +3,7 @@ preguntas_basicas = {
     'alternativas': [['1820', 0], 
                      ['1810', 1], 
                      ['1800', 0], 
-                     ['1810', 0]]},
+                     ['1830', 0]]},
     'pregunta_2': {'enunciado':['¿En qué año rescataron a los 33 mineros de la mina San José?'],
     'alternativas': [['2012', 0], 
                      ['2010', 1], 
