@@ -2,14 +2,28 @@ import preguntas as p
 
 
 def verificar(alternativas, eleccion):
+    """Verifica si la elección del usuario es correcta basándose en las alternativas dadas.
+    Parámetros
+    ----------
+    alternativas : list of list
+        Lista de listas, donde cada sublista contiene una alternativa y un valor indicativo de su correción(1 para correcta, 0 para incorrecta)
+    eleccion: str
+        La opción seleccionada del usuario ('a','b','c','d').
+    Returns
+    -------
+    Correcto: booleano
+        True si la elección es correcta, False en caso contrario.
+    """
+
     # devuelve el índice de elección dada
     eleccion = ["a", "b", "c", "d"].index(eleccion)
 
     # generar lógica para determinar respuestas correctas
-    ##########################################################################################
-    pass
+    # Determinar si la respuesta es correcta
+    correcto = alternativas[eleccion][1] == 1
 
-    ##########################################################################################
+    if correcto:
+        print("Respuesta Correcta")
     return correcto
 
 
