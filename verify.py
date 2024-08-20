@@ -16,14 +16,17 @@ def verificar(alternativas, eleccion):
     """
 
     # devuelve el índice de elección dada
-    eleccion = ["a", "b", "c", "d"].index(eleccion)
+    indice_eleccion = ["a", "b", "c", "d"].index(eleccion)
 
     # generar lógica para determinar respuestas correctas
     # Determinar si la respuesta es correcta
-    correcto = alternativas[eleccion][1] == 1
+    correcto = alternativas[indice_eleccion][1] == 1
 
     if correcto:
         print("Respuesta Correcta")
+    else:
+        print("Respuesta Incorrecta")
+
     return correcto
 
 
