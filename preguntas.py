@@ -1,3 +1,27 @@
+"""
+Diccionarios que contienen preguntas y respuestas categorizadas por nivel de dificultad.
+
+Diccionarios
+------------
+preguntas_basicas : dict
+    Contiene preguntas de nivel básico. Cada clave es un identificador de pregunta 
+    (por ejemplo, 'pregunta_1'), y su valor es un diccionario que incluye:
+    - 'enunciado': Una lista con el texto de la pregunta.
+    - 'alternativas': Una lista de listas, donde cada lista interna contiene el texto de una alternativa y 
+      un valor (0 o 1) que indica si la alternativa es incorrecta (0) o correcta (1).
+
+preguntas_intermedias : dict
+    Contiene preguntas de nivel intermedio, con la misma estructura que `preguntas_basicas`.
+
+preguntas_avanzadas : dict
+    Contiene preguntas de nivel avanzado, con la misma estructura que `preguntas_basicas`.
+
+pool_preguntas : dict
+    Diccionario que agrupa las preguntas según el nivel de dificultad. Las claves son:
+    - 'basicas': Referencia a `preguntas_basicas`.
+    - 'intermedias': Referencia a `preguntas_intermedias`.
+    - 'avanzadas': Referencia a `preguntas_avanzadas`.
+"""
 preguntas_basicas = {
     'pregunta_1': {'enunciado':['¿En qué año comenzó la Guerra de Independencia de Chile?'],
     'alternativas': [['1820', 0], 

@@ -15,23 +15,23 @@ Para ejecutar este proyecto, asegúrate de tener instalado:
 
 1. **Clona el repositorio:**
 
-    ```bash
-    git clone https://github.com/tu_usuario/trivia.git
-    ```
+   ```bash
+   git clone https://github.com/tu_usuario/trivia.git
+   ```
 
 2. **Accede al directorio del proyecto:**
 
-    ```bash
-    cd trivia
-    ```
+   ```bash
+   cd trivia
+   ```
 
 ## Instrucciones para Ejecutar el Proyecto
 
 1. **Ejecuta el script principal:**
 
-    ```bash
-    python main.py
-    ```
+   ```bash
+   python main.py
+   ```
 
 2. **Sigue las instrucciones en el menú interactivo para jugar a la trivia.**
 
