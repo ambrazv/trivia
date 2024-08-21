@@ -1,3 +1,17 @@
+"""
+Este script es un juego de trivia en la consola donde el usuario debe responder preguntas
+de opción múltiple. El jugador puede elegir cuántas preguntas desea responder por nivel 
+(entre 1 y 3) y el juego continuará hasta que el usuario responda incorrectamente 
+o complete todas las preguntas. 
+
+Funciones principales:
+- El usuario puede elegir entre jugar o salir del juego.
+- El juego selecciona preguntas de acuerdo al nivel de dificultad basado en la cantidad 
+  de preguntas respondidas.
+- La respuesta del usuario se valida y se verifica si es correcta.
+- El juego finaliza cuando el usuario responde incorrectamente o responde todas 
+  las preguntas correctamente.
+"""
 from verify import verificar
 import preguntas as p
 from question import choose_q
