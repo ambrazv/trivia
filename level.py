@@ -11,20 +11,12 @@ def choose_level(n_pregunta, p_level):
     level: str
         El nivel de dificultad seleccionado: 'básicas', 'intermedias' o 'avanzadas'.
     """
-    if p_level == 2:
-        if 1 <= n_pregunta <= 2:
-            level = "básicas"
-        elif 3 <= n_pregunta <= 4:
-            level = "intermedias"
-        else:
-            level = "avanzadas"
-    if p_level == 3:
-        if 1 <= n_pregunta <= 3:
-            level = "básicas"
-        elif 4 <= n_pregunta <= 6:
-            level = "intermedias"
-        else:
-            level = "avanzadas"
+    if 1 <= n_pregunta <= p_level:
+        level = "basicas"
+    elif p_level <= n_pregunta <= 2 * p_level:
+        level = "intermedias"
+    else:
+        level = "avanzadas"
 
     return level
 
